@@ -71,3 +71,20 @@ button{
     color: white;
     align-items: center;
 }
+
+.vision1, .vision2, .vision3{
+    width: 320px;
+    padding: 10px;
+    border: 10px black;
+    float: right;
+    margin: 20px;
+    height: 100px;
+    position:relative;
+    property:button;
+}
+.vision1{
+    background-color:rgb(0, 0, 255);
+}
+.vision3, .vision2{
+    background-color:white;
+}
