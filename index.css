@@ -42,10 +42,12 @@ button{
 
 .nav{
     background-image: url("./images2/cover1.png");
+    opacity: 1;
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100%;
     height: 600px;
+    
    
 }
 
