@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding:0;
+
 }
 
 .logo{
@@ -40,6 +41,8 @@ ul li a:hover{
 
 button{
     background-color: blue;
+    padding: 5px;
+    border-radius: 15px;
 }
 
 .nav{
@@ -83,12 +86,14 @@ button{
 .one button{
     background-color: #0000ff;
     padding: 5px;
+    border-radius: 15px;
 
 }
 
 .two button{
     background-color: white;
     padding: 5px;
+    border-radius: 15px;
 
 }
 
@@ -109,6 +114,7 @@ button{
 }
 .vision1{
     background-color:rgb(0, 0, 255);
+    color: white;
 }
 .vision3, .vision2{
     background-color:white;
