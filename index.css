@@ -132,7 +132,7 @@ button{
 .mission{
     height: 100px;
     width: 100%;
-    padding: 200px;
+    padding:  80px 200px;
 
 }
 
@@ -150,7 +150,7 @@ button{
 .industry{
     height: 300px;
     width: 100%;
-    padding: 200px;
+    padding: 200px 200px;
 
 
 }
@@ -171,20 +171,29 @@ button{
     font-size: 20px;
     text-align: center;
     width: 50%;
-    padding:100px;
+    padding:20px 100px;
 }
 
 .tool{
     height: 50px;
-    padding: 100px;
     width: 100%;
+    padding:100px
+    
 }
 .t1, .t2, .t3, .t4, .t5, .t6{
     float: left;
     width: 10%;
     padding: 20px;
     text-align: center;
+   
+}
+.newsletter{
+    height: 50px;
+    width: 100%;
+    padding: 10px 500px;
+}
+.news, .news1{
+    float: left;
+    text-align: center;
 
-    
-    
 }
