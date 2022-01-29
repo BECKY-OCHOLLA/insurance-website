@@ -150,7 +150,7 @@ button{
 .industry{
     height: 300px;
     width: 100%;
-    padding: 200px 200px;
+    padding: 80px 200px;
 
 
 }
@@ -188,7 +188,7 @@ button{
    
 }
 .newsletter{
-    height: 50px;
+    height: 100px;
     width: 100%;
     padding: 10px 500px;
 
@@ -200,4 +200,7 @@ button{
 }
 .news1{
     padding: 5px 20px ;
+}
+.pricing{
+    text-align: center;
 }
