@@ -225,3 +225,19 @@ color: white;
     color: white;
     padding: 10px;
 }
+.surface2{
+    height: 80px;
+}
+.background3, .background4{
+    float: left;
+    text-align: center;
+    align-content: center;
+}
+
+.background4{
+    background-color: white;
+}
+h3{
+    background-color: #23A6F0;
+    
+}
