@@ -80,11 +80,15 @@ button{
     padding: 80px;
     border-radius: 10 10 10;
 }
-.one{
+.one button{
+    background-color: #0000ff;
+    padding: 5px;
 
 }
 
-.two{
+.two button{
+    background-color: white;
+    padding: 5px;
 
 }
 
