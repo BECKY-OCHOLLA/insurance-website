@@ -215,8 +215,13 @@ button{
 .background1,.backround2{
 float: left;
 padding: 30px 200px;
+color: white;
 
 }
 .background2{
     padding-top: 30px;
+}
+.background1 h2{
+    color: white;
+    padding: 10px;
 }
