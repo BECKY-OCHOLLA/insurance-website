@@ -214,28 +214,33 @@ button{
 }
 .background1,.backround2{
 float: left;
-padding: 30px 200px;
+padding: 10px 200px;
 color: white;
 
 }
-.background2{
-    padding-top: 30px;
-}
+
 .background1 h2{
     color: white;
-    padding: 10px;
+    padding: px;
 }
 .surface2{
     height: 80px;
+    width: 100%;
+    padding: 150px;
+    text-align: center;
+    padding-right: 100;
+    
 }
 .background3, .background4{
     float: left;
     text-align: center;
-    align-content: center;
+    
 }
 
 .background4{
     background-color: white;
+    height: 400px;
+    width: 200px;
 }
 h3{
     background-color: #23A6F0;
