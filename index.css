@@ -191,9 +191,13 @@ button{
     height: 50px;
     width: 100%;
     padding: 10px 500px;
+
 }
 .news, .news1{
     float: left;
     text-align: center;
 
+}
+.news1{
+    padding: 5px 20px ;
 }
