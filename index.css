@@ -203,4 +203,20 @@ button{
 }
 .pricing{
     text-align: center;
+    padding: 10px 20% 30px;
+}
+
+.surface{
+    height: 400px;
+    background-color: #252B42;
+    width: 100%;
+
+}
+.background1,.backround2{
+float: left;
+padding: 30px 200px;
+
+}
+.background2{
+    padding-top: 30px;
 }
