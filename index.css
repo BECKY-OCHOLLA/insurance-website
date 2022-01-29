@@ -151,6 +151,7 @@ button{
     height: 300px;
     width: 100%;
     padding: 80px 200px;
+    background-color: #fafafa;
 
 
 }
@@ -177,7 +178,9 @@ button{
 .tool{
     height: 50px;
     width: 100%;
+    background-color: #fafafa;
     padding:100px
+    
     
 }
 .t1, .t2, .t3, .t4, .t5, .t6{
@@ -224,11 +227,12 @@ color: white;
     padding: px;
 }
 .surface2{
-    height: 80px;
+    height: 800px;
     width: 100%;
     padding: 150px;
     text-align: center;
     padding-right: 200;
+    padding-left: 500px;
     
 }
 .background3, .background4{
@@ -239,10 +243,34 @@ color: white;
 
 .background4{
     background-color: white;
-    height: 400px;
+    height: 200px;
     width: 200px;
 }
 h3{
     background-color: #23A6F0;
     
+}
+.agency{
+    width: 100%;
+    padding: 200px;
+    background-color: #fafafa;
+
+    
+
+}
+
+.agency1, .agency2{
+    float: left;
+    padding: 100px;
+}
+.more{
+
+    list-style: none;
+    width: 100%;
+
+}
+.company, .legal, .features, .research .touch{
+    float: left;
+    padding: 50px;
+    text-align: center;
 }
