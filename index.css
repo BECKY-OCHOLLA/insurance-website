@@ -34,19 +34,14 @@ ul li a{
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
-    color:white;
     height: 100px;
 }
 
-ul li a:hover{
-    color: yellowgreen;
-}
-
-
 button{
     background-color: #23A6F0;
-    padding: 5px;
-    border-radius: 15px;
+    padding: 2px 30px;
+    border-radius: 5px;
+    
 }
 
 .nav{
@@ -265,14 +260,21 @@ h3{
 }
 .more{
 
-    list-style: none;
+    box-sizing: border-box;
+    height: 500px;
     width: 100%;
+    padding-top: 80px;
+    padding-left: 200px;
+    
 
 }
-.company, .legal, .features, .research .touch{
-    float: left;
-    padding: 50px;
-    text-align: center;
+.company, .legal, .features, .resources, .touch{
+  box-sizing: border-box;
+  width: 180px;
+  float: left;
+  padding: 10px;
+  list-style: none;
+  
 }
 .vert{
     box-sizing: border-box;
@@ -281,12 +283,16 @@ h3{
 
 }
 .vert1, .vert2, .vert3{
-    width: 250px;
+    width: 300px;
     
     padding: 50px;
-    border: 1px solid blue;
+    border: 1px solid #23A6F0;
     box-sizing: border-box;
     float: left;
     border-radius: 15px;
     
+}
+.vert2{
+    background-color:  #252B42;
+    list-style: none;
 }
