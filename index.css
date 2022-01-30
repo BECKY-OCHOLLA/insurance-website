@@ -274,3 +274,19 @@ h3{
     padding: 50px;
     text-align: center;
 }
+.vert{
+    box-sizing: border-box;
+    height: 650px;
+    padding-left: 300px;
+
+}
+.vert1, .vert2, .vert3{
+    width: 250px;
+    
+    padding: 50px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    float: left;
+    border-radius: 15px;
+    
+}
