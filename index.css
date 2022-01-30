@@ -105,6 +105,7 @@ button{
     padding: 5px 30px;
     border-radius: 10px;
     color: white;
+    box-sizing: border-box;
     
 }
 
@@ -293,6 +294,7 @@ h3{
     float: left;
     padding: 30px;
     padding-bottom: 10px;
+    font-size: 14px;
   
   
   
@@ -325,10 +327,24 @@ h3{
     
 }
 
-@media only screen and(min-width:480px) {
+@media only screen and(min-width:768px) {
     body{
         float: none;
+        width: 50%;
+        margin: auto;
+        padding :max(3vh,1rem)1.5 rem;
+        flex-direction: column;
+        orientation: porttrate;
+
+        
     }
-    
-    
-}
+    @media only screen and(min-width:768px) {
+        image {display: block;
+        max-width: 100%;
+        flex-direction: column;
+        }
+
+        p{
+            font-size: 1.5rem;
+        }
+    }
