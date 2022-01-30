@@ -8,6 +8,7 @@
 ## Setup/Installation Instructions
 * Make sure you have Access to a browser
 * Click on the live link in the About Section
+* OR click herehttps://becky-ocholla.github.io/insurance-website/
 * Enjoy!
 
 ## License
