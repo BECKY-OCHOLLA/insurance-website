@@ -1,4 +1,4 @@
-# INSURANCE_WEBSITE
+# Insurance_Website
 
 ### Version v1.0.3
 
@@ -11,4 +11,4 @@
 * Enjoy!
 
 ## License
-copyright (c) 2022 [click to view license]
+copyright (c) 2022 [click to view License](LICENCE)
