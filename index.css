@@ -3,6 +3,7 @@
     padding:0;
     border: 0;
 
+
 }
 
 .logo{
@@ -49,14 +50,12 @@ button{
 
 .nav{
     background-image: url("./images2/cover1.png");
-    opacity: 1;
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100%;
     height: 700px;
-    opacity: 1;
-    
-   
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+       
 }
 
 .list{
@@ -88,7 +87,7 @@ button{
     text-align: center;
     display: flex;
     justify-content: center;
-    padding: 80px;
+    padding: 50px;
     border-radius: 10 10 10;
 }
 
@@ -106,6 +105,7 @@ button{
     border-radius: 10px;
     color: white;
     box-sizing: border-box;
+    border: 2px white;
     
 }
 
@@ -121,7 +121,7 @@ button{
     float: right;
     margin: 20px;
     height: 100px;
-    font-size: 12px;
+    font-size: 16px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
 
@@ -149,7 +149,7 @@ button{
     height: 100px;
     float: left;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     
 }
 
@@ -158,7 +158,7 @@ button{
     width: 100%;
     padding: 80px 200px;
     background-color: #fafafa;
-    font-size: 14px;
+    font-size: 16px;
 
 
 }
@@ -211,7 +211,7 @@ button{
 .news, .news1{
     float: left;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
 
 }
 .news1{
@@ -220,14 +220,14 @@ button{
 .pricing{
     text-align: center;
     padding: 10px 20% 30px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .surface{
     height: 400px;
     background-color: #252B42;
     width: 100%;
-    font-size: 14px;
+    font-size: 16px;
 
 }
 .background1,.backround2{
@@ -248,7 +248,7 @@ color: white;
     text-align: center;
     padding-right: 200;
     padding-left: 500px;
-    font-size: 14px;
+    font-size: 16px;
     
 }
 .background3, .background4{
@@ -282,7 +282,7 @@ h3{
 }
 .more{
 
-    height: 100px;
+    height: 200px;
     padding-top: 80px;
     padding-left: 100px;
 
@@ -292,9 +292,9 @@ h3{
 }
 .company, .legal, .features, .resources, .touch{
     float: left;
-    padding: 30px;
+    padding: 50px;
     padding-bottom: 10px;
-    font-size: 14px;
+    font-size: 16px;
   
   
   
@@ -304,7 +304,7 @@ h3{
     box-sizing: border-box;
     height: 650px;
     padding-left: 300px;
-    font-size: 10px;
+    font-size: 16px;
 
 }
 .vert1, .vert2, .vert3{
@@ -327,6 +327,11 @@ h3{
     
 }
 
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
 @media only screen and(min-width:768px) {
     body{
         float: none;
@@ -347,4 +352,3 @@ h3{
         p{
             font-size: 1.5rem;
         }
-    }
