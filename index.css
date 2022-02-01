@@ -375,13 +375,14 @@ footer{
     }
     
 
-    @media screen and(min-width:1200px){
+    @media screen and(min-width:440px){
         .logo{
             font-size: 2rem;
             color: white;
             z-index: 1;
             padding: 0;
             box-sizing: border-box;
+            display: block;
         }
     }
 @media screen and(min-width:1200px) {
@@ -394,7 +395,7 @@ footer{
     }
     
 }
-@media screen and(min-width:480px) {
+@media screen and(min-width:440px) {
     h3{
         font-weight: bold;
         margin-block-start: 1em;
@@ -403,7 +404,7 @@ footer{
     }
     
 }
-@media screen and(min-width:480px) {
+@media screen and(min-width:440px) {
     body{
         padding: 0;
         overflow: hidden;
@@ -425,9 +426,44 @@ footer{
     }
     
 }
-@media screen and(min-width:480) {
+@media screen and(min-width:440) {
+    
+    .vision{
+        flex: none;
+        margin: auto;
+        padding-bottom: 200px;
+        box-sizing: border-box;
+    
+
+    }
     
 }
+@media screen and(min-width:440px) {
+    .industry{
+        flex: none;
+        box-sizing: border-box;
+        pad: 0;
+        margin: 0;
+    }
+    
+}
+@media screen and(min-width:440px){
+    padding-bottom: 50px;
+    text-align:centre;
+    
+}
+@media screen and(min-width:440px) {
+    .tools{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80px;
+        margin: auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+}
+
     
         
     
